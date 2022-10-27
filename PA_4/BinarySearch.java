@@ -48,12 +48,12 @@ public class BinarySearch
             //Doing the search with a for loop
             for(int i = 0; i < array.length; i++)
             {
+                numIt++;
                 if(array[i] == input)
                 {
                     check = true; 
                     break; 
-                }
-                numIt++; 
+                } 
             } 
             //Printing the results 
             if(check == true)
