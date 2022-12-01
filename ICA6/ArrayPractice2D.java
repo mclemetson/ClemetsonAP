@@ -17,11 +17,11 @@ public class ArrayPractice2D
                 }
                 else if(row == 0)
                 {
-                    my2D[row][col-1] = 1; 
+                    my2D[row][col] =  my2D[row][col-1]; 
                 }
                 else if(col == 0)
                 {
-                    my2D[row-1][col] = 1;
+                    my2D[row][col] = my2D[row-1][col];
                 }
                 else 
                 {
