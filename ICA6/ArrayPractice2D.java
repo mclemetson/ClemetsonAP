@@ -7,7 +7,7 @@ public class ArrayPractice2D
         Scanner in = new Scanner(System.in); 
         //Declaring arrays 
         int [][] my2D = new int[10][10]; 
-        for(int row = 0; row < my2D.length; col++)
+        for(int row = 0; row < my2D.length; row++)
         {
             for(int col = 0; col < my2D[row].length; col++)
             {
@@ -28,6 +28,15 @@ public class ArrayPractice2D
                     my2D[row][col] = my2D[row-1][col] + my2D[row][col-1];
                 }
             } 
+        }
+        //Printing out the grid 
+        for(int row = 0; row < my2D.length; row++)
+        {
+            for(int col = 0; col < my2D[row].length; col++)
+            {
+                System.out.print(my2D[row][col] + " "); 
+            }
+            System.out.println(); 
         }
     }
 }
