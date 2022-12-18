@@ -40,3 +40,58 @@ public class ArrayPractice2D
         }
     }
 }
+
+/* int count = 0;
+        int increment = 0; 
+        for(int row = 5; row < array.length; row--)
+        {
+            for(int col = 6; col < array[row].length; col--)
+            {
+                while(array[row][col + increment] == 1)
+                {
+                    count++; 
+                    if(array[row][col+1] == 1)
+                    {
+                        increment++; 
+                    }
+                    else if(array[row][col-1] == 1)
+                    {
+                        increment--; 
+                    }
+                    if(count == 4)
+                    {
+                        return true; 
+                    }
+                }
+                count = 0; 
+                increment = 0;
+                while(array[row + increment][col] == 1)
+                {
+                    count++; 
+                    if(array[row + 1][col] == 1)
+                    {
+
+                    }
+                }
+            }
+        }
+        return false;  
+        
+        
+        else if(array[row][col] == 2)
+                {
+                    for(int check = col; check < array[row].length; check++)
+                    {
+                        if(array[row][check] == 1 || array[row][check] == 0)
+                        {
+                            count = 0; 
+                            break; 
+                        }
+                        count++; 
+                    } 
+                    if(count == 4)
+                    {
+                        return true; 
+                    }
+                }
+        */
